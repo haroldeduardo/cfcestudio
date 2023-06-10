@@ -1,98 +1,369 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>linding</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="menu container">
-        <a href="#" class="logo">Destino</a>
-        <input type="checkbox" name="" id="menu" />
-        <label for="menu">
-          <img src="images/menu.png" alt="" class="menu-icono" />
-        </label>
 
-        <nav class="navbar">
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Portafolio</a></li>
-            <li><a href="#">Contactenos</a></li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>linding</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Swiper CSS  -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!------->
 
-        <div class="icons">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
+  <link rel="stylesheet" href="css/style.css" />
+
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="menu container">
+      <a href="#" class="logo">Destino</a>
+      <input type="checkbox" name="" id="menu" />
+      <label for="menu">
+        <img src="images/menu.png" alt="" class="menu-icono" />
+      </label>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Portafolio</a></li>
+          <li><a href="#">Contactenos</a></li>
+        </ul>
+      </nav>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+
+    <div class="header-content container">
+      <div class="header-txt">
+        <h1>elige tu playa ahora</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          eaque doloribus iure ducimus voluptas itaque odit hic vero. Deserunt
+          repellat nam nulla nihil tenetur nobis sapiente debitis, eligendi
+          ipsa iure.
+        </p>
+        <a href="#" class="btn-1"> Seccion menu</a>
+      </div>
+    </div>
+
+    <div class="images">
+      <div class="swiper1 mySwiper">
+        <div class="swiper1 swiper-wrapper">
+          <div class="swiper1 swiper-slide">
+            <img src="images/1.jpg" alt="" />
+            <h3>playa</h3>
+          </div>
+
+          <div class="swiper1 swiper-slide">
+            <img src="images/2.jpg" alt="" />
+            <h3>hotel</h3>
+          </div>
+
+          <div class="swiper1 swiper-slide">
+            <img src="images/3.jpg" alt="" />
+            <h3>naturales</h3>
+          </div>
+
+          <div class="swiper1 swiper-slide">
+            <img src="images/4.jpg" alt="" />
+            <h3>canoas</h3>
+          </div>
+
+          <div class="swiper1 swiper-slide">
+            <img src="images/5.jpg" alt="" />
+            <h3>lanchas</h3>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="header-content container">
-        <div class="header-txt">
-          <h1>elige tu playa ahora</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            eaque doloribus iure ducimus voluptas itaque odit hic vero. Deserunt
-            repellat nam nulla nihil tenetur nobis sapiente debitis, eligendi
-            ipsa iure.
-          </p>
-          <a href="#" class="btn-1"> Seccion menu</a>
-        </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </header>
+
+  <!--SECTION WE-->
+
+  <section class="we">
+    <h2>Nosotros</h2>
+    <div class="we-info container">
+
+      <div class="we-img">
+        <img src="images/team-image.jpg">
       </div>
+      <div class="we-txt">
 
-      <div class="images">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="images/1.jpg" alt="" />
-              <h3>playa</h3>
-            </div>
+        <p>
+          Somos CFC Estudio Grafico, una empresa ubicada en la ciudad de Popayán - Cauca, enfocada al diseño e impresión
+          de contenidos de alta calidad.
+          Garantizamos nuestra experiencia en creación de marcas, logotipos y papelerias propias de la identidad
+          corporativa.
+          Conceptualizamos y ejecutamos cada proyecto basados en los fundamentos de enfoque sostenible del diseño
+          gráfico..
+        </p>
+        <a href="#" class="btn-1">Saber Mas</a>
 
-            <div class="swiper-slide">
-              <img src="images/2.jpg" alt="" />
-              <h3>hotel</h3>
-            </div>
+      </div>
+    </div>
 
-            <div class="swiper-slide">
-              <img src="images/3.jpg" alt="" />
-              <h3>naturales</h3>
-            </div>
+  </section>
 
-            <div class="swiper-slide">
-              <img src="images/4.jpg" alt="" />
-              <h3>canoas</h3>
-            </div>
+  <!--SECTION SERVICES-->
+  <section class="services">
+    <h2>Servicios</h2>
+    <div class="slide-container-services swiper">
+      <div class="slide-content-service">
+        <div class="card-wrapper-service swiper-wrapper">
 
-            <div class="swiper-slide">
-                <img src="images/5.jpg" alt="" />
-                <h3>lanchas</h3>
+          <div class="card-service swiper-slide">
+            <h2 class="title">Apps</h2>
+            <div class="image-content">
+              <div class="card-image-service">
+                <img src="images/apps-image.jpg" alt="" class="card-img">
               </div>
+
+            </div>
+            <div class="card-content">
+
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
+          </div>
+
+          <div class="card-service swiper-slide">
+            <h2 class="title">3D</h2>
+            <div class="image-content">
+              <div class="card-image-service">
+                <img src="images/3D.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+          </div>
+
+
+
+          <div class="card-service swiper-slide">
+            <h2 class="title">Marketing</h2>
+            <div class="image-content">
+              <div class="card-image-service">
+                <img src="images/marketing-img.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
+          </div>
+
+
+          <div class="card-service swiper-slide">
+            <h2 class="title">Apps</h2>
+            <div class="image-content">
+              <div class="card-image-service">
+                <img src="images/apps-image.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
+          </div>
+
+          <div class="card-service swiper-slide">
+            <h2 class="title">Apps</h2>
+            <div class="image-content">
+              <div class="card-image-service">
+                <img src="images/apps-image.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+  </section>
+
+  <!--SECTION VIDEOCLIP1-->
+  <section class="videoclip1">
+    <h2>
+      Video Clip1
+    </h2>
+    <img src="images/ReferenciaVideo.PNG">
+  </section>
+
+  <!--SECTION TEAM-->
+  <section class="team">
+    <h2>Equipo de Trabajo</h2>
+    <div class="slide-container-team swiper">
+      <div class="slide-content-team">
+        <div class="card-wrapper-team swiper-wrapper">
+          <div class="card-team swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/person01.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+              <h2 class="name">David Dell</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
+          </div>
+          <div class="card-team swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/person02.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+              <h2 class="name">David Dell</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
+          </div>
+          <div class="card-team swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/person03.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+              <h2 class="name">David Dell</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
+          </div>
+          <div class="card-team swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/person04.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+              <h2 class="name">David Dell</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
+          </div>
+          <div class="card-team swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/person01.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+              <h2 class="name">David Dell</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
+          </div>
+          <div class="card-team swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="images/person01.jpg" alt="" class="card-img">
+              </div>
+
+            </div>
+            <div class="card-content">
+              <h2 class="name">David Dell</h2>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum repellat
+                dignissimos, expedita aliquam eos id nulla vero, aperiam esse. </p>
+              <button class="button">View more</button>
+            </div>
+
           </div>
         </div>
       </div>
 
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </header>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+    </div>
+  </section>
+
+  <!--SECTION VIDEOCLIP2-->
+  <section class="videoclip2">
+    <h2>
+      Video Clip2
+    </h2>
+    <img src="images/ReferenciaVideo.PNG">
+  </section>
+
+
+  <script src="js/zowl.carousel.min.js"></script>
+  <!-- Swiper JS  -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <!------->
+
+  <!--JS MAIN-->
+  <script src="js/script.js"></script>
+
+</body>
+
 </html>
